@@ -1,0 +1,46 @@
+@charset "utf-8";
+@import url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/stylesheets/NotoSansKR-Hestia.css);
+
+html {margin:0; padding:0; overflow-y:scroll; -webkit-text-size-adjust:none;  -moz-text-size-adjust:none;  -ms-text-size-adjust:none;}
+body {margin:0; padding:0;font-size:0.8em; vertical-align:baseline; font-weight:400; font-family:'AritaL', '맑은 고딕', Malgun Gothic, "돋움", Dotum, "굴림", Gulim, Tahoma, Verdana, AppleGothic, UnDotum, sans-serif; -webkit-font-smoothing: antialiased;}
+html, h1, h2, h3, h4, h5, h6, form, fieldset, img {margin:0;padding:0;border:0}
+h1, h2, h3, h4, h5, h6 {font-size:1em; font-family:'Noto Sans Korean', '맑은 고딕', Malgun Gothic, "돋움", Dotum, "굴림", Gulim, Tahoma, Verdana, AppleGothic, UnDotum, sans-serif;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block}
+
+ul, ol, li, dl, dt, dd, p, figure, h1, h2, h3, h4, h5, h6 {margin:0;padding:0;list-style:none}
+legend {position:absolute;margin:0;padding:0;font-size:0;line-height:0;text-indent:-9999em;overflow:hidden}
+label, input, button, select, img {vertical-align:middle}
+input, button {margin:0;padding:0; font-family:'Noto Sans Korean', '맑은 고딕', Malgun Gothic, "돋움", Dotum, "굴림", Gulim, Tahoma, Verdana, AppleGothic, UnDotum, sans-serif; font-size:1em; outline:none}
+* button {position:relative; display:inline-block; margin:0; padding:0; background:none; border:0; cursor:pointer;  _cursor:hand; text-decoration:none; overflow:visible; font-family:'AritaL', '맑은 고딕', Malgun Gothic, "돋움", Dotum, "굴림", Gulim, Tahoma, Verdana, AppleGothic, UnDotum, sans-serif; white-space:nowrap;}
+
+iframe {margin:0; padding:0; border:currentcolor;  border-image-source:none;}
+
+textarea, select {font-family:'Noto Sans Korean', '맑은 고딕', Malgun Gothic, "돋움", Dotum, "굴림", Gulim, Tahoma, Verdana, AppleGothic, UnDotum, sans-serif; font-size:1em; -webkit-appearance: none; -moz-appearance: none; appearance: none; border-radius:0; outline:none}
+select {margin:0}
+p {margin:0;padding:0;word-break:break-all}
+hr {display:none}
+pre {overflow-x:scroll;font-size:1.1em}
+a:link, a:visited {color:#000;text-decoration:none}
+a:hover, a:focus, a:active {color:#000;text-decoration:none}
+
+input[type="radio"], input[type="checkbox"], input[type="image"] {width:auto; border:none;}
+input[type="text"], input[type="tel"], input[type="search"], input[type="number"], input[type="date"], input[type="email"], input[type="password"] {padding:4px; -webkit-appearance:none; box-sizing: border-box; -webkit-border-radius: 0; border-radius:0}
+input[type="submit"],
+input[type="button"] {border:none; -webkit-appearance:none; cursor:pointer; -webkit-border-radius: 0; border-radius:0}
+
+/* Table style */	
+caption  {width: 100%; height: 1px; text-indent: -9999px; overflow: hidden;}	
+table  {width: 100%; border-collapse: collapse; border: none;}
+table th  {padding: 5px 15px; white-space: nowrap; text-align: center;}
+table td  {padding: 5px 0px; white-space: normal; word-break: break-all;}
+
+.blind {display:none;}
+.sound_only {display: inline-block !important; position: absolute; top: 0; left: 0; margin: 0 !important; padding: 0 !important; font-size: 0; line-height: 0; border: 0 !important; overflow: hidden !important;}
+
+/* skip navgation STYLE */
+#accessibility { position:relative; width:100%; margin:0 auto; font-size:1.3em; z-index:200;}
+#accessibility dt {width: 100%;height: 0;font-size:  0;line-height: 0;}
+#accessibility a {display:block; position: absolute; top: -10000px; left: 0; width: 100%; height: 0; text-align:center; font-size: 1em;z-index: 200; }
+#accessibility a:hover, 
+#accessibility a:focus, 
+#accessibility a:active{position:absolute; top:0; padding:18px 0 30px; background:#536dfe; color:#fff; z-index: 200;}
